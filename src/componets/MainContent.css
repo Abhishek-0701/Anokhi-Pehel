@@ -1,0 +1,26 @@
+
+
+
+/* MainContent.css */
+.main {
+    padding: 100px;
+  }
+  
+  .main h2 {
+    color: #333;
+    margin-bottom: 12px; /* Add space below heading */
+  }
+  
+  .main p {
+    color: #666;
+    margin-bottom: 20px; /* Add space below paragraph */
+  }
+  
+  .main img {
+    width: 100%; /* Make image responsive */
+    max-width: 400px; /* Limit image width */
+    height: auto;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
