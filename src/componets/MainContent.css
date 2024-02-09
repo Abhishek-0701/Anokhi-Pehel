@@ -1,26 +1,93 @@
 
 
 
-/* MainContent.css */
-.main {
-    padding: 100px;
-  }
-  
-  .main h2 {
-    color: #333;
-    margin-bottom: 12px; /* Add space below heading */
-  }
-  
-  .main p {
-    color: #666;
-    margin-bottom: 20px; /* Add space below paragraph */
-  }
-  
-  .main img {
-    width: 100%; /* Make image responsive */
-    max-width: 400px; /* Limit image width */
-    height: auto;
-    border-radius: 5px;
-    margin-top: 20px;
-  }
-  
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+#wrapper{
+ 
+  height: 100vh;
+/* width: 100vh; */
+overflow-x: hidden;
+overflow-y: auto;
+position: relative;
+gap: 10px;
+padding: 100px;
+background-color: rgb(84, 250, 250);
+/* display: flex; */
+
+
+}
+
+
+
+
+.container{
+
+  position: relative;
+
+  height: 100%;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  gap: 100px;
+
+
+}
+
+.heading {
+  color: #333;
+  padding: 10px 10px 100px 200px;
+  margin-bottom: 12px; 
+  align-items: center;
+  width: 1000px;
+  height: 80px;
+  font-size: 7rem;
+
+}
+
+.content{
+
+  border: 2px 2px solid black;
+  color: black;
+  margin-bottom: 100px;
+  font-size: large;
+  font-size: 5 rem;
+  padding-top: 150px;
+  padding-bottom: 0px;
+
+}
+
+img{
+  width: 100%; 
+  max-width: 400px; 
+  height: auto;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  /* border-color:rgb(12, 5, 5); */
+  box-shadow: 2px 2px 2px rgb(19, 11, 11);
+background-color: aliceblue;
+}
+ 
+
+img:hover{
+  transform: scale(1.1);
+filter:drop-shadow(0 0 10px rgb333);
+transition: 0.3s;
+}
+
+
+
+.content:hover{
+
+  transform: scale(1.1);
+  filter:drop-shadow(0 0 10px rgb333);
+  /* font-size: 1.2rem; */
+  color: red;
+  transition: 0.3s;
+
+}
