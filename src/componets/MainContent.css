@@ -91,3 +91,26 @@ transition: 0.3s;
   transition: 0.3s;
 
 }
+
+
+
+
+
+@media screen and (max-width: 768px) {
+  #wrapper {
+    flex-direction: column;
+    padding: 50px;
+  }
+
+  .container {
+    gap: 50px;
+  }
+
+  .heading {
+    font-size: 4rem;
+  }
+
+  .content {
+    font-size: 3rem;
+  }
+}
